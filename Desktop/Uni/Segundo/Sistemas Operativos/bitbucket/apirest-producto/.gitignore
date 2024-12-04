@@ -95,6 +95,7 @@ Programacion\ Avanzada/
 *.png
 *.jpg
 *.json
+!package.json
 *.py
 *.ipynb
 
