@@ -48,3 +48,36 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Excluir carpetas del sistema y específicas de Windows
+AppData/
+Configuración\ local/
+Cookies/
+Datos\ de\ programa/
+Entorno\ de\ red/
+Impresoras/
+Menú\ Inicio/
+Mis\ documentos/
+Plantillas/
+Reciente/
+SendTo/
+
+# Excluir archivos temporales del usuario
+*.lnk
+*.ini
+
+# Excluir proyectos previos no relacionados
+../../Primero/
+../../../Algoritmia\ y\ Optimizacion/
+"../../../M\303\251todos\ de\ Inferencia/"
+../../../Programacion\ Avanzada/
+"../../../Razonamiento\ y\ Representaci\303\263n\ del\ conocimiento/"
+
+# Excluir IDEs y configuraciones
+.vscode/
+.idea/
+
+# Excluir archivos comunes no deseados
+*.zip
+*.pdf
+*.png
+*.jpg
