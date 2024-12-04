@@ -49,7 +49,24 @@ Thumbs.db
 *.wmv
 
 # Excluir carpetas del sistema y específicas de Windows
+.VirtualBox/
+.afirma/
+.anaconda/
+.cache/
+.conda/
+.condarc
+.continuum/
+.docker/
+.gitconfig
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.matplotlib/
+.node_repl_history
+.spyder-py3/
+.vscode/
 AppData/
+Contacts/
 Configuración\ local/
 Cookies/
 Datos\ de\ programa/
@@ -66,18 +83,32 @@ SendTo/
 *.ini
 
 # Excluir proyectos previos no relacionados
-../../Primero/
-../../../Algoritmia\ y\ Optimizacion/
-"../../../M\303\251todos\ de\ Inferencia/"
-../../../Programacion\ Avanzada/
-"../../../Razonamiento\ y\ Representaci\303\263n\ del\ conocimiento/"
-
-# Excluir IDEs y configuraciones
-.vscode/
-.idea/
+Primero/
+Algoritmia\ y\ Optimizacion/
+"Métodos\ de\ Inferencia/"
+Programacion\ Avanzada/
+"Razonamiento\ y\ Representación\ del\ conocimiento/"
 
 # Excluir archivos comunes no deseados
 *.zip
 *.pdf
 *.png
 *.jpg
+*.json
+*.py
+*.ipynb
+
+# Excluir configuraciones específicas y archivos generados
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Music/
+Pictures/
+Videos/
+NTUSER.*
+node_modules/
+package-lock.json
+dir/
+supermercado.*
+*.gexf
