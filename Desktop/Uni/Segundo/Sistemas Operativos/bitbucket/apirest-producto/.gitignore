@@ -107,8 +107,14 @@ Music/
 Pictures/
 Videos/
 NTUSER.*
-node_modules/
-package-lock.json
 dir/
 supermercado.*
 *.gexf
+
+# Otros elementos adicionales según la terminal
+Robot.zip
+Robot/
+Tablas/
+Google.html
+a.txt
+destino.txt
